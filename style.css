@@ -1,0 +1,285 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+html,body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 2px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img{
+
+    width:60px;
+    height:45px;
+    border-color: #131212;
+    border-radius: 5px;
+    padding:5px;
+    
+    
+}
+nav h1{
+font-size: 45px;
+font-family:'Times New Roman', Times, serif;  
+font-weight: 900;
+margin-right:300px;
+margin-left: 0;
+
+
+
+
+}nav input{
+    width: 200px;
+   align-items: center; 
+   justify-content: center;
+   height: 30px;
+   text-align: center;
+   margin-top: 15px;
+   transition: all 0.15 ease;
+   
+   
+
+}nav input:hover{background-color:#8b8686;}
+
+nav .search{
+    width: 50px;
+    
+   align-items: center; 
+   justify-content: center;
+   height: 40px;
+   text-align: center;
+   margin-top: 18px;
+   transition: all 0.15 ease;
+   margin-left: 0;
+   margin-right:150px;
+   
+
+}
+nav .search:hover{background-color:#8b8686;}
+
+nav .account
+{
+    
+    
+   align-items: center; 
+   justify-content: center;
+   height: 40px;
+   text-align: center;
+   margin-top: 18px;
+   transition: all 0.15 ease;
+
+}
+nav .account:hover{background-color:#8b8686;}
+nav .submit
+{
+    
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    justify-items: center;
+    margin-top: 10px;
+}
+
+/* main */
+#Main{
+    width: 1370px;
+    height: 150px;
+    background-color: rgb(119, 137, 137);
+    display: flex;
+    
+}
+#Main img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px;
+   }
+#Main a{
+    margin: 6px;
+    padding: 5px;
+    justify-content: space-between;
+    transition: all 0.25s ease;
+
+}
+#Main a :hover{background-color: #49524a;}
+
+
+.best {
+     background-color:#8fc297 ;
+}
+
+.con-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:5px;
+   
+
+}
+
+.con-concard {
+    margin: 5px;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.con-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+}
+/* new arrival */
+.content {
+    padding:5px;
+    background-color:#49524a ;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: all 0.25ms ease;
+}
+
+.card {
+    margin: 20px;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card :hover{width: 120px;}
+
+
+
+
+
+
+
+/* footer */
+footer {
+    
+    background-color: #333;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+}
+
+footer nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+#navbar ul li a {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+   color: #fff;
+   transition: all 0.25s ease;
+}
+#navbar ul li  :hover{background-color: #49524a;}
+/* products */
+.Products {
+    background-color:#dcdada ;
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+    padding: 2px;
+}
+
+.pro-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 200px;
+    position: relative;
+    padding: 2px;
+    margin: 15px;
+}
+.pro-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 200px;
+    position: relative;
+    padding: 2px;
+    margin: 15px;
+    
+
+    
+}
+.pro-container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 200px;
+    position: relative;
+    padding: 2px;
+    margin: 15px;
+}
+
+
+.pcard {
+    
+    margin:10px;
+    width: 300px;
+    height: 240px;
+    background-color: #50619f;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+}
+
+.pcard img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.pcard h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
